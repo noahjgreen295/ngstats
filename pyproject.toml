@@ -40,6 +40,9 @@ select = ["E", "F", "W", "I", "B", "UP", "SIM", "N", "D"]
 [tool.ruff.lint.pydocstyle]
 convention = "numpy"
 
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
 
 # ############ Packaging ############
 [build-system]
